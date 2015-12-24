@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A960103E64ACB3F06A06577 /* HRInputAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A960FB3F8803E68C8070DCD /* HRInputAccessoryView.m */; };
+		5A96054F6D77D9383BB49CDD /* HRInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A96005B637FDA873C402919 /* HRInputViewController.m */; };
+		5A9608E4687B4D79EBCB3CE2 /* HRResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9600BBD5DAB5CD3EF2D1FA /* HRResponder.m */; };
 		DAD82B3B1C2BF3DC006EE7E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD82B3A1C2BF3DC006EE7E9 /* main.m */; };
 		DAD82B3E1C2BF3DC006EE7E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD82B3D1C2BF3DC006EE7E9 /* AppDelegate.m */; };
 		DAD82B411C2BF3DC006EE7E9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD82B401C2BF3DC006EE7E9 /* ViewController.m */; };
@@ -16,6 +19,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5A96005B637FDA873C402919 /* HRInputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRInputViewController.m; sourceTree = "<group>"; };
+		5A9600BBD5DAB5CD3EF2D1FA /* HRResponder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRResponder.m; sourceTree = "<group>"; };
+		5A9601E26D2B5C81E36E8F4E /* HRInputAccessoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRInputAccessoryView.h; sourceTree = "<group>"; };
+		5A96078E4D895703AEA98374 /* HRResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRResponder.h; sourceTree = "<group>"; };
+		5A9608ECA4A0F5293B353697 /* HRInputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRInputViewController.h; sourceTree = "<group>"; };
+		5A960FB3F8803E68C8070DCD /* HRInputAccessoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRInputAccessoryView.m; sourceTree = "<group>"; };
 		DAD82B361C2BF3DC006EE7E9 /* UIResponderBug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIResponderBug.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAD82B3A1C2BF3DC006EE7E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DAD82B3C1C2BF3DC006EE7E9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -67,6 +76,12 @@
 				DAD82B471C2BF3DC006EE7E9 /* LaunchScreen.storyboard */,
 				DAD82B4A1C2BF3DC006EE7E9 /* Info.plist */,
 				DAD82B391C2BF3DC006EE7E9 /* Supporting Files */,
+				5A9600BBD5DAB5CD3EF2D1FA /* HRResponder.m */,
+				5A96078E4D895703AEA98374 /* HRResponder.h */,
+				5A96005B637FDA873C402919 /* HRInputViewController.m */,
+				5A9608ECA4A0F5293B353697 /* HRInputViewController.h */,
+				5A960FB3F8803E68C8070DCD /* HRInputAccessoryView.m */,
+				5A9601E26D2B5C81E36E8F4E /* HRInputAccessoryView.h */,
 			);
 			path = UIResponderBug;
 			sourceTree = "<group>";
@@ -152,6 +167,9 @@
 				DAD82B411C2BF3DC006EE7E9 /* ViewController.m in Sources */,
 				DAD82B3E1C2BF3DC006EE7E9 /* AppDelegate.m in Sources */,
 				DAD82B3B1C2BF3DC006EE7E9 /* main.m in Sources */,
+				5A9608E4687B4D79EBCB3CE2 /* HRResponder.m in Sources */,
+				5A96054F6D77D9383BB49CDD /* HRInputViewController.m in Sources */,
+				5A960103E64ACB3F06A06577 /* HRInputAccessoryView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,7 +279,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = UIResponderBug/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hayashi11.UIResponderBug;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -272,7 +292,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = UIResponderBug/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hayashi11.UIResponderBug;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -298,6 +320,7 @@
 				DAD82B4F1C2BF3DC006EE7E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
